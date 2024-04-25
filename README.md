@@ -1,12 +1,14 @@
-# Java SPI Application Lab 1
-
-This is a simple console application that demonstrates the use of the Java Service Provider Interface (SPI). It includes an interface for a weather app service and two different implementations of this service. The application allows you to dynamically load the implementations at runtime and choose which one to use.
+# Java SPI Application Lab 1 For ITHS
 
 ## Task
 
 - **Service Definition**: Define an interface for a service. This can be a simple service such as currency conversion or something more complex with multiple methods.
 - **Implementations**: Create at least two implementations of the defined interface. These implementations should be able to be loaded dynamically when the application starts.
 - **User Interaction**: Allow the user to choose which implementation they want to use. The application can use one or all implementations based on the user's selection to perform the tasks
+
+## Description
+
+This is a simple console application that demonstrates the use of the Java Service Provider Interface (SPI). It includes an interface for a weather app service and two different implementations of this service. The application allows you to dynamically load the implementations at runtime and choose which one to use.
 
 ## Installation
 
