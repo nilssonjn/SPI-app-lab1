@@ -29,7 +29,7 @@ To run the application, follow these steps:
     ```
     docker run -it -e API_KEY=your-api-key jniths/spi-app-lab1:latest
     ```
-    Without api-key you can run:
+    Without api-key you can run: (Option 2 in the menu will not work without a api-key)
     ```
     docker run -it jniths/spi-app-lab1:latest
     ```
