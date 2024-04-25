@@ -14,28 +14,24 @@ This is a simple console application that demonstrates the use of the Java Servi
 
 To run the application, follow these steps:
 
-1. Clone this repository:
+1. Install Docker hub:
+   https://hub.docker.com/
 
-    ```bash
-    git clone https://github.com/your-username/java-spi-app.git
+2. Get a api-key from:
+   https://openweathermap.org/api
+
+4. Log in to docker and run this in terminal:
+
+    ```
+    docker pull jniths/spi-app-lab1:latest
     ```
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd java-spi-app
     ```
-
-3. Compile the Java source files:
-
-    ```bash
-    javac -d bin src/*.java
+    docker run -it -e API_KEY=your-api-key jniths/spi-app-lab1:latest
     ```
-
-4. Run the application:
-
-    ```bash
-    java -cp bin your.package.Main
+    Without api-key you can run:
+    ```
+    docker run -it jniths/spi-app-lab1:latest
     ```
 
 ## Usage
